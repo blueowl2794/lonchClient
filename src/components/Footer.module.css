@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    background-color: #000000e3;
+    justify-content: space-evenly;
+    height: 9vh;
+}
+
+.contentFooter{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.contentFooter > a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content{
+    /* background-color: rgb(40, 57, 77); */
+    background-color: rgb(211, 201, 201);
+    height:1em;
+}
+.contentDos{
+    background-color: rgb(24, 54, 85);
+    height:2em;
+}

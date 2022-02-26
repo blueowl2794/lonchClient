@@ -1,0 +1,213 @@
+.conten{
+    background-color:#ffffffe3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.contenMenu{
+    background-color:#1f1e1e;
+    display:flex;
+    height: 70vh;
+    width: 100%;
+    /* margin-top:8%; */
+}
+.imgMenu{
+    width:45%;
+    height:100%;
+    background-color:#ffc0c0e3;
+    border-top-right-radius:40rem;
+    border-bottom-right-radius:10rem;
+}
+.imgMenu > img{
+    width:86%;
+    height:100%;
+    padding:0;
+    margin:0;
+    /* position:relative; */
+    /* top:-40em; */
+    border-top-right-radius:40rem;
+    
+}
+
+
+.textMenu{
+    width:60%; 
+    /* background-color: #948686; */
+    overflow: hidden;
+    color:rgba(255, 255, 255, 0.637);
+}
+
+.titulo{
+    /* background-color: #d47272; */
+    display:flex;
+    justify-content:space-between;
+}
+.titulo button{
+    margin-top:3em;
+    margin-right:2em;
+    width:4em;
+    height:4em;
+    background-color:transparent;
+    border: 2px solid #fdfdfd;
+    border-radius:20rem;
+}
+.iconB{
+    color: rgb(102, 168, 255);
+    font-size:2em;
+}
+.card{
+    display:flex;
+    /* grid-template-columns: repeat( auto-fill ,10em); */
+    /* gap: 0rem; */
+    flex-direction: column;
+    padding:0;
+    margin:2rem;
+    margin-top: 10em;
+    width: 90%;
+    /* background-color: #949186; */
+    
+}
+
+.txt{
+    color: rgb(255, 122, 122);
+}
+.txt > b{
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.txtt{
+    color: rgb(122, 191, 255);
+}
+.txtt > b{
+    color: rgba(255, 255, 255, 0.726);
+}
+.contacto{
+    margin:2em;
+    position: relative;
+    top:10em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.waap{
+    margin-left: 0.5em;
+    color: rgb(66, 233, 16);
+}
+.contentD{
+    /* background-color: rgb(40, 57, 77); */
+    background-color: rgb(211, 201, 201);
+    height:1em;
+    /* position: relative;
+    top: 5em; */
+    
+}
+.contentT{
+    /* background-color: rgb(40, 57, 77); */
+    background-color: rgb(224, 119, 119);
+    height: 70vh;
+    width:90%;
+    position: relative;
+    /* top: -11em; */
+    
+    
+}
+.contentDos{
+    /* background-color: rgb(51, 71, 109); */
+    background-color: rgb(24, 54, 85);
+    height:2em;
+}
+
+@media (max-width: 1000px){
+    .contenMenu{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .imgMenu{
+        width:100%;
+        height:50%;
+        background-color:#ffc0c0e3;
+        border-top-right-radius:40rem;
+        border-bottom-right-radius:10rem;
+    }
+
+    .imgMenu > img{
+        width:40%;
+        height:100%;
+        padding:0;
+        margin:0;
+        /* position:relative; */
+        /* top:-40em; */
+        /* border-top-right-radius:40rem; */
+    }  
+
+    .textMenu{
+        width:100%; 
+        height:100%;
+        /* background-color: #948686; */
+        overflow: hidden;
+        color:rgba(255, 255, 255, 0.637);
+    }
+    .titulo button{
+        margin-top:1em;
+        margin-right:2em;
+        width:3em;
+        height:3em;
+        background-color:transparent;
+        border: 2px solid #fdfdfd;
+        border-radius:20rem;
+        
+    }
+
+    .card{
+        display:flex;
+        flex-direction: column;
+        padding:0;
+        margin:1rem;
+        margin-top: 0em;
+        width: 90%;
+    }
+    .contacto{
+        margin:1em;
+        position: relative;
+        top:2em;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.678);
+    }
+
+}
+
+@media (max-width: 600px){ 
+    .imgMenu{
+        width:100%;
+        height:45%;
+        background-color:#ffc0c0e3;
+        border-top-right-radius:40rem;
+        border-bottom-right-radius:10rem;
+        overflow: hidden;
+    }
+    .imgMenu > img{
+        width:15rem;
+        height:100%;
+        padding:0;
+        margin:0;
+        /* position:relative; */
+        /* top:-40em; */
+        /* border-top-right-radius:40rem; */
+        
+    }  
+
+} 
+@media (max-width: 300px){ 
+    .imgMenu{
+        width:100%;
+        height:45%;
+        background-color:#ffc0c0e3;
+        border-top-right-radius:40rem;
+        border-bottom-right-radius:10rem;
+        overflow: hidden;
+        transition:2s;
+    }
+}

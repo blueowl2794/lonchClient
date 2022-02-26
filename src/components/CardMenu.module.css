@@ -1,0 +1,69 @@
+
+.CardMenu a {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    /* background-color: rgba(17, 65, 112, 0.705); */
+    background-color: rgb(211, 201, 201);
+    margin: 3rem;
+    color: rgb(34, 35, 36);
+    /* columns:#ec3e3e; */
+    font-weight: bold;
+    font-size:1em;
+    text-decoration: none;
+    align-items: center;
+    border-radius:0.5em;
+    
+}
+.CardMenu > a > img{
+    width: 90%;
+    height: 20em;
+    border-radius:0.5em;
+    
+    
+}
+
+@media (max-width: 1200px){
+
+    .CardMenu a {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        background-color: rgba(17, 65, 112, 0.705);
+        background-color: #1f1e1e;
+        margin: 3rem;
+        color: rgba(240, 248, 255, 0.452);
+        font-weight: bold;
+        font-size:1.1em;
+        text-decoration: none;
+        align-items: center;
+        border-radius:0.5em;
+        
+    }
+   
+    .CardMenu > a > img{
+        width: 90%;
+        height: 10rem;
+        border-radius:0.5em;
+        
+        
+    }
+
+    
+}
+
+@media (max-width: 750px){
+    .CardMenu{
+        width: 100%;
+    }
+
+    .CardMenu > a > img{
+        width: 100%;
+        height: 12rem;
+        border-radius:0.5em;
+        
+        
+    }
+
+}
+
