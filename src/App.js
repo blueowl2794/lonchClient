@@ -14,13 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<> <Landing/> <Steps/> <Menu/> <Contact/> <Footer/> </>} />
         <Route path="/products/:id" element={<DetailMenu/>} />
-        {/* <Landing/>
-        <Steps/>
-        <Menu/>
-        <Contact/>
-        <Footer/> */}
       </Routes>
-      
     </div>
   );
 }
