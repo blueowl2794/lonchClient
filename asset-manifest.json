@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lonchClient/static/css/main.1b110af4.css",
-    "main.js": "/lonchClient/static/js/main.2dda5c2c.js",
+    "main.js": "/lonchClient/static/js/main.2fa44c57.js",
     "static/js/787.c4e7f8f9.chunk.js": "/lonchClient/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pizz.jpg": "/lonchClient/static/media/pizz.92f50fb84035557326ac.jpg",
     "static/media/ham.jpg": "/lonchClient/static/media/ham.66c8153699de0e723ee6.jpg",
@@ -11,11 +11,11 @@
     "static/media/24Horas.svg": "/lonchClient/static/media/24Horas.bcd4da50d90f7f55cfa62af038585427.svg",
     "index.html": "/lonchClient/index.html",
     "main.1b110af4.css.map": "/lonchClient/static/css/main.1b110af4.css.map",
-    "main.2dda5c2c.js.map": "/lonchClient/static/js/main.2dda5c2c.js.map",
+    "main.2fa44c57.js.map": "/lonchClient/static/js/main.2fa44c57.js.map",
     "787.c4e7f8f9.chunk.js.map": "/lonchClient/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b110af4.css",
-    "static/js/main.2dda5c2c.js"
+    "static/js/main.2fa44c57.js"
   ]
 }
