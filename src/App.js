@@ -1,4 +1,5 @@
-import { Routes, Switch, Route } from 'react-router-dom';
+// import { Routes, Switch, Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
@@ -17,7 +18,8 @@ function App() {
       <Contact/>
       <Footer/>
       <Switch>
-      <Route path="/" element={ <Landing/>} />
+        <Route path="/" ><Landing/></Route>
+        <Route path="/products/:id" ><DetailMenu/></Route>
 
       </Switch>
 
