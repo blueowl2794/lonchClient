@@ -1,5 +1,5 @@
-// import { Routes, Switch, Route } from 'react-router-dom';
-import { Route, Switch } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
+// import { Route, Switch } from 'react-router';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
@@ -13,25 +13,20 @@ function App() {
   return (
     <div className="App">
       <Landing/>
-      <Steps/>
+      {/* <Steps/>
       <Menu/>
       <Contact/>
-      <Footer/>
-      <Switch>
-        <Route path="/" ><Landing/></Route>
-        <Route path="/products/:id" ><DetailMenu/></Route>
+      <Footer/> */}
 
-      </Switch>
-
-      {/* // <Routes> */}
-      {/* <Route path="/" element={ <Landing/>} /> */}
-      {/* <Route path="/" element={ <Steps/>  } />
-      <Route path="/" element={ <Menu/> } />
-      <Route path="/" element={ <Contact/>} />
-      <Route path="/" element={ <Footer/> } /> */}
-        {/* <Route path="/" element={<> <Landing/> <Steps/> <Menu/> <Contact/> <Footer/> </>} /> */}
-      {/* //   <Route path="/products/:id" element={<DetailMenu/>} /> */}
-      {/* // </Routes> */}
+      <Routes>
+        <Route path="/" element={ <Landing/>} />
+        <Route path="/" element={ <Steps/>  } />
+        <Route path="/" element={ <Menu/> } />
+        <Route path="/" element={ <Contact/>} />
+        <Route path="/" element={ <Footer/> } />
+        <Route path="/" element={<> <Landing/> <Steps/> <Menu/> <Contact/> <Footer/> </>} />
+        <Route path="/products/:id" element={<DetailMenu/>} />
+      </Routes>
     </div>
   );
 }
