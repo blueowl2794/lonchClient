@@ -19,11 +19,6 @@ function App() {
       <Footer/> */} 
 
       <Routes>
-        <Route path="/" element={ <Landing/>} />
-        <Route path="/" element={ <Steps/>  } />
-        <Route path="/" element={ <Menu/> } />
-        <Route path="/" element={ <Contact/>} />
-        <Route path="/" element={ <Footer/> } />
         <Route path="/" element={<> <Landing/> <Steps/> <Menu/> <Contact/> <Footer/> </>} />
         <Route path="/products/:id" element={<DetailMenu/>} />
       </Routes>
