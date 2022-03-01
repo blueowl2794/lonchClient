@@ -16,7 +16,7 @@ function App() {
       {/* <Steps/>
       <Menu/>
       <Contact/>
-      <Footer/> */}
+      <Footer/> */} 
 
       <Routes>
         <Route path="/" element={ <Landing/>} />
